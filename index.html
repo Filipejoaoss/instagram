@@ -4,8 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Instagram </title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Icon -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
 </head>
 <body>
-    
+    <main>
+        <div id="main-container">
+            <!-- Banner Container -->
+            <div id="banner-container">
+                <img src="img/banner2.png" alt="Create Account">
+            </div>
+            <!-- Login and Register -->
+            <div id="form-container">
+                <div id="form-box">
+                    <img src="img/logo_instagram.png" alt="Instagram">
+                    <form action="" id="login-form">
+                        <input type="text" name="username" placeholder="Mobile number, username or email" />
+                        <input type="password" name="password" placeholder="Password" />
+                        <input type="submit" value="Begin session">
+                    </form>
+                    <div class="separator">
+                        <div class="line"></div>
+                        <span>Or</span>
+                    </div>
+                    <div id="other-links">
+                        <div id="facebook-login">
+                            <img src="img/logo_facebook.svg" alt="Facebook">
+                            <span>Log in with Facebook</span>
+                        </div>
+                        <div id="forgot-pass">
+                            <a href="#">Have you forgotten your password?</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="register-container">
+                    <p>Don't have an account <a href="#">Register.</a></p>
+                </div>
+                <div id="get-app-container">
+                    <p>Gets the application.</p>
+                    <a href="#">
+                        <img src="img/apple_btn.png" alt="apple">
+                    </a>
+                    <a href="#">
+                        <img src="img/gplay_btn.png" alt="apple">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <nav>
+            <ul id="footer-links">
+                <li><a href="#">Meta</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">API</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Locations</a></li>
+                <li><a href="#">Instagram Lite</a></li>
+                <li><a href="#">Threads</a></li>
+                <li><a href="#">Uploading contacts and non-users</a></li>
+                <li><a href="#">Meta Check</a></li>
+            </ul>
+        </nav>
+        <p id="copyright">&copy;2023 Instagram from Meta</p>
+    </footer>
 </body>
 </html>
